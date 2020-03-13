@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh ezderman@159.65.240.11 <<EOF
+ssh lttszebra2020@104.197.14.120 <<EOF
   cd ~/node-app
   git pull
   npm install --production
