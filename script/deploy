@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ssh -tt truptipritish@104.197.14.120 <<EOF
-  cd /home/lttszebra2020/node-app
+ssh -tt root@34.70.6.27 <<EOF
+  cd /home/pritish/node-app
   git pull
   npm install --production
   pm2 restart all
