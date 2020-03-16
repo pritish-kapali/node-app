@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh lttszebra2020@104.197.14.120 <<EOF
+ssh -tt lttszebra2020@104.197.14.120 <<EOF
   cd /home/lttszebra2020/node-app
   git pull
   npm install --production
